@@ -1,0 +1,65 @@
+> test
+> jest __tests__/lab6_crud.test.js
+
+  console.log
+    REFRESHING PAGE
+
+      at Object.log (__tests__/lab6_crud.test.js:97:17)
+
+  console.log
+    DELETING First Note
+
+      at Object.log (__tests__/lab6_crud.test.js:116:17)
+
+  console.log
+    Deleting the second note, should leave no notes
+
+      at Object.log (__tests__/lab6_crud.test.js:131:17)
+
+  console.log
+    Creating multiple notes and modifying non-first note
+
+      at Object.log (__tests__/lab6_crud.test.js:140:17)
+
+  console.log
+    Creating Notes
+
+      at Object.log (__tests__/lab6_crud.test.js:192:17)
+
+  console.log
+    Note 1
+
+      at Object.log (__tests__/lab6_crud.test.js:227:21)
+
+  console.log
+    Note 2
+
+      at Object.log (__tests__/lab6_crud.test.js:227:21)
+
+  console.log
+    Note 3
+
+      at Object.log (__tests__/lab6_crud.test.js:227:21)
+
+  console.log
+    DELETE NOTES
+
+      at Object.log (__tests__/lab6_crud.test.js:231:17)
+
+ PASS  __tests__/lab6_crud.test.js (22.999 s)
+  Notetaking App
+    ✓ Testing to see if button click adds a new note (1258 ms)
+    ✓ Editing the existing note, should update the note to have 'Test Note' (1573 ms)
+    ✓ Editing the already existing note after clicking tab, updating text to  add '#1' (1163 ms)
+    ✓ Adding another note with the existig one still there, editing text to  add 'Note #2' (2693 ms)
+    ✓ Retains notes after refreshing page (1106 ms)
+    ✓ Deleting the first note, should leave only the second note (1125 ms)
+    ✓ Deleting the second note, should leave no notes (575 ms)
+    ✓ Creating multiple notes and modifying non-first note (5774 ms)
+    ✓ Stress Testing Suite for creating and attempting to delete notes (6099 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        23.143 s
+Ran all test suites matching /__tests__\/lab6_crud.test.js/i.
