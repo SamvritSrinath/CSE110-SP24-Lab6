@@ -2,7 +2,7 @@
 describe('Notetaking App', () => {
 
     beforeAll(async () => {
-        await page.goto('http://127.0.0.1:5500/CSE110-SP24-Lab6/index.html'); // Update URL as needed
+        await page.goto('https://samvritsrinath.github.io/CSE110-SP24-Lab6/'); // Update URL as needed
     });
 
     it('Testing to see if button click adds a new note', async () => {
